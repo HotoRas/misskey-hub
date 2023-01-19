@@ -17,10 +17,12 @@ A grouping block that can contain other blocks. Each content block has a title t
 Displays text content to the user. The text content can be formatted and can include variables interpolation (See Variables below).
 
 ### Images
+<!--feature up to MK12-->
 
 Displays an image that you can select from your drive.
 
 ### Text Area
+<!--feature up to MK12-->
 
 Displays text in a text area tag. This block does not support MFM but variable interpolation is allowed.
 
@@ -29,18 +31,22 @@ Displays text in a text area tag. This block does not support MFM but variable i
 TODO
 
 ### Canvas
+<!--feature up to MK12-->
 
 TODO
 
 ## Input Blocks
+<!--feature up to MK12-->
 
 Input blocks can be used to create interactive pages with form elements. These blocks can be used to interact with the variables and scripts in a page.
 
 ## Special Blocks
+<!--feature up to MK12-->
 
 Special blocks provide unique features for your page. This includes a note posting form and page control flow.
 
 ## Variables
+<!--feature up to MK12-->
 
 Variables can be used to create dynamic pages. You can embed the value of a variable by writing <b>{ variable name }</b> in the text. For example, in <b>Hello { thing } world!</b>, if the value of the variable (thing) was <b>ai</b>, then the text would become <b>Hello ai world!</b>.
 
