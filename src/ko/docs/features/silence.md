@@ -1,5 +1,7 @@
-# Silence
-<!--feature up to MK12-->
+# 사일런스
+::: 팁
+이 기능은 Misskey v12까지만 지원됩니다. Misskey v13에서는 해당 기능이 삭제되었습니다.
+:::
 
 Silence is one of the states that an account can be set to.
 
