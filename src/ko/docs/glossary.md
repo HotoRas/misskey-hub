@@ -47,21 +47,21 @@ Misskey 공식 웹 클라이언트 (인터페이스). Misskey 인스턴스에 PC
 소셜 타임라인 ("Social TimeLine")의 약자. 타임라인에 대한 자세한 정보는 [다음 문서](../features/timeline)를 참고해 주세요.
 
 ## Ai
-Misskey의 공식 마스코트. 자세한 정보는 [다음 홈페이지 (일본어)](https://藍.moe)를 참고해 주세요.
+Misskey의 공식 마스코트. 자세한 정보는 [다음 홈페이지 (일본어)](https://xn--931a.moe/)를 참고해 주세요.
 
 ## Active users
 Those users amongst all existing ones who are continually using their account.
 
-## Instance
+## 인스턴스
 todo
 
-## Custom Emoji
-Emoji provided by your server.Emoji that are not specifically provided by your server but are available by default are called "Unicode Emoji".
+## 커스텀 이모지
+각 Misskey 인스턴스의 관리자 혹은 사용자에 의해 작성된 이모지. 커스텀 이모지가 아닌 기본 에모지는 "Unicode 이모지"라 불립니다. 자세한 내용은 [다음 문서](../docs/features/custom-emoji)를 참고해 주세요.
 
 ## Control Panel
 todo
 
-## Server
+## 서버
 todo
 
 ## Silence
@@ -73,11 +73,11 @@ A system used for sequentially broadcasting activities to other servers etc.
 ## Suspend
 A state which makes the account of a user unusable.
 
-## Drive
-A feature allowing users to organize the files they have uploaded to Misskey.For details, see [here.](../features/drive)
+## 드라이브
+Misskey의 인스턴스에서 사용자가 업로드한 이미지나 음악 등의 파일을 관리할 수 있는 기능. 자세한 내용은 [다음 문서](../features/drive)를 참고해 주세요.
 
-## Notes
-Content which may include text, images, surveys and others that has been posted to Misskey.For details, see [here.](../features/note)
+## 노트
+Misskey의 인스턴스 상에서 사용자가 올리는 문장. 이미지나 음악 등의 파일, 설문 등, Misskey 특유의 여러 컨텐츠를 포함할 수 있습니다. 자세한 내용은 [다음 문서](../features/note)를 참고해 주세요.
 
 ## Misskeyist
 Users of Misskey.
