@@ -49,29 +49,31 @@ Misskey 공식 웹 클라이언트 (인터페이스). Misskey 인스턴스에 PC
 ## Ai
 Misskey의 공식 마스코트. 자세한 정보는 [다음 홈페이지 (일본어)](https://xn--931a.moe/)를 참고해 주세요.
 
-## Active users
+## 활동적인 사용자
 Those users amongst all existing ones who are continually using their account.
 
 ## 인스턴스
 todo
 
+## 오픈 소스
+Misskey와 같이, 소프트웨어의 소스 코드가 공개되어 있는 상태. 기업 등이 소유하며, 소스 코드를 공개하지 않은 소프트웨어는 "클로즈드 소스"라 불립니다.
+
 ## 커스텀 이모지
 각 Misskey 인스턴스의 관리자 혹은 사용자에 의해 작성된 이모지. 커스텀 이모지가 아닌 기본 에모지는 "Unicode 이모지"라 불립니다. 자세한 내용은 [다음 문서](../docs/features/custom-emoji)를 참고해 주세요.
 
-## Control Panel
-todo
+## 제어판
+Misskey 인스턴스의 설정 화면.
 
-## 서버
-todo
-
+<!--
 ## Silence
 A state in which the visibility of the notes by said user cannot be set to "Public" anymore.Can be set for individual users by the discretion of Moderators.For details, see [here.](../features/silence)
+-->
 
-## Job Queue
-A system used for sequentially broadcasting activities to other servers etc.
+## 작업 대기열
+활동을 타 서버에 전송하는 등의 작업을 순서대로 진행하는 데에 쓰이는 시스템.
 
-## Suspend
-A state which makes the account of a user unusable.
+## 정지
+사용자의 계정이 사용 불가로 설정되어 있는 상태.
 
 ## 드라이브
 Misskey의 인스턴스에서 사용자가 업로드한 이미지나 음악 등의 파일을 관리할 수 있는 기능. 자세한 내용은 [다음 문서](../features/drive)를 참고해 주세요.
@@ -79,17 +81,23 @@ Misskey의 인스턴스에서 사용자가 업로드한 이미지나 음악 등�
 ## 노트
 Misskey의 인스턴스 상에서 사용자가 올리는 문장. 이미지나 음악 등의 파일, 설문 등, Misskey 특유의 여러 컨텐츠를 포함할 수 있습니다. 자세한 내용은 [다음 문서](../features/note)를 참고해 주세요.
 
-## Misskeyist
-Users of Misskey.
+## 미스키스트
+Misskey의 인스턴스에 계정을 가지고 있는 사용자.
 
-## Moderator
-Users with the authority to manage the community of a server by deactivating spam accounts, silencing users, deleting inappropriate posts, etc.
+## 모더레이터
+스팸 유저의 "Suspend" 및 "Silence"나 부적절한 노트의 삭제 등, 인스턴스의 운영에 관한 권한을 갖고 있는 유저. 대부분의 경우, 인스턴스 관리자가 인스턴스 내에서 모더레이터를 모집해 채용합니다.
 
-## Remote
-Used in context of servers separate from your own.Also used as prefix in other words like "Remote user".The opposite of "Local".
+## 푸딩
+Misskey의 메인 개발자, syuiro님이 좋아하는 음식입니다.
 
-## Federation
-The act of sharing information created on one's server with other servers.
+## 라이선스
+컴퓨터 소프트웨어를 사용함에 따라, 사용자가 지켜야 할 것이 적혀 있는 문서. Misskey에서는 서버 소프트웨어에 적합한 AGPLv3을 사용하고 있습니다.
 
-## Local
-Used in context of your own server.Also used as prefix in other words like "Local users", "local timeline".The opposite of "Remote".
+## 리모트
+타 서버나 인스턴스를 칭합니다. "리모트 유저" 등과 같이 접두사로서도 사용됩니다. "로컬"과 대조되는 단어죠.
+
+## 연합
+여러 인스턴스나 서버가 서로 접속하여, 컨텐츠나 알림 등의 정보를 서로의 인스턴스나 서버가 주고받는 집합체.
+
+## 로컬
+자신의 인스턴스를 칭합니다. "로컬 유저", "로컬 타임라인" 등과 같이 접두사로서도 사용됩니다. "리모트"와 대조되는 단어죠.
