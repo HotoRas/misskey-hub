@@ -1,47 +1,53 @@
-# Glossary
-A glossary about terms related to Misskey.
+# 용어집
+Misskey에 관련된 용어집입니다.
+
+## Acct
+특정 유저를 지칭하는 @username@host 형식의 문자열. 멘션을 하는 등에서 사용됩니다.
 
 ## ActivityPub
-The protocol (method) used for enabling the distributed nature of Misskey.By adhering to this protocol, communication with other servers that also follow it becomes possible, forming what is known as the Fediverse.
+Misskey의 분산형 소셜 네트워크를 형성하는 프로토콜. 이 프로토콜에 의거하여 서버들이 서로 연결되어, 컨텐츠나 알림 등의 정보가 교환됩니다. Fediverse라고도 불리는 이 세계를 만드는 데 필수죠.
 
 ## AiScript
-A programming language available for use on Misskey.For details, see [here.](../advanced/aiscript)
+Misskey에서 사용 가능한, JavaScript 상에서 움직이는 프로그래밍 언어. 자세한 정보는 [다음 문서](../advanced/aiscript)를 참고해 주세요.
 
 ## API
-An interface that can be used for interacting with Misskey through a program, available for each individiual instance.For details, see [here.](../advanced/api)
+프로그램을 통해 Misskey의 인스턴스와 상호작용할 시 사용할 수 있는 인터페이스. 자세한 정보는 [다음 문서](../advanced/api)를 참고해 주세요.
 
-## Bot
-An account that is being controlled by a program.
+## 봇
+프로그램에 의해 동작하고 있는 계정.
 
 ## CW
-An abbreviation of "Content Warning".A feature to hide the content of a note unless explicitly requested to be shown by a user.Mainly used to hide the content of long notes or to prevent posting spoilers publicly.
+"Content Warning"의 약자. 유저가 표시를 요청하지 않는 한 노트의 컨텐츠를 가리는 기능. 긴 노트를 가리거나 공개적인 스포일러를 방지하기 위해 사용됩니다.
 
 ## Fediverse
-A network of servers composed of various different platforms that communicate with each other, including Misskey.
+"Federated (Federation)"과 "Universe"를 합친 조어. Misskey를 포함한 여러 분산형 소프트웨어를 사용한 서버로 구성되는, 비중앙집권적인 연합 소셜 네트위크. Misskey 이외의 분산형 소프트웨어에는 Mastodon, Pleroma, Pixelfed 등이 있습니다.
 
 ## GTL
-An abbreviation for "Global TimeLine".For details about timelines, please see [here](../features/timeline).
+글로벌 타임라인 ("Global TimeLine")의 약자. 타임라인에 대한 자세한 정보는 [다음 문서](../features/timeline)를 참고해 주세요.
 
 ## HTL
-An abbreviation for "Home TimeLine".For details about timelines, please see [here](../features/timeline)
+홈 타임라인 ("Home TimeLine")의 약자. 타임라인에 대한 자세한 정보는 [다음 문서](../features/timeline)를 참고해 주세요.
 
 ## LTL
-An abbreviation for "Local TimeLine".For details about timelines, please see [here](../features/timeline)
+로컬 타임라인 ("Local TimeLine")의 약자. 타임라인에 대한 자세한 정보는 [다음 문서](../features/timeline)를 참고해 주세요.
 
 ## MFM
-An abbreviation for "Misskey Flavored Markdown", a markdown language available for use on Misskey.For details, see [here.](../features/mfm)
+"Misskey Flavored Markdown"의 약자이며, Misskey에서 사용할 수 있는 마크다운 언어. 자세한 정보는[다음 문서](../features/mfm)를 참고해 주세요.
+
+## Misskey Web
+Misskey 공식 웹 클라이언트 (인터페이스). Misskey 인스턴스에 PC/스마트폰 등의 브라우저로 액세스할 시에 자동으로 표시됩니다.
 
 ## NSFW
-An abbreviation for "Not Safe For Work".A feature to tag an image as "NSFW" and hide it unless explicitly requested to be shown by a user.
+"Not Safe For Work"의 약자. 이미지를 "NSFW"로 표시하고, 유저가 표시를 요청하지 않는 한 그를 가리는 기능.
 
-## Renote
-The act of quoting an existing note, sharing an existing note, or the note created as a result of these acts.For details, see [here.](../features/note)
+## 리노트
+이미 존재하는 노트를 인용, 혹은 그 노트를 새로운 노트로써 공유하는 행위 및 그에 의해 작성된 노트. 자세한 정보는 [다음 문서](../features/note)를 참고해 주세요.
 
 ## STL
-An abbreviation for "Social TimeLine".For details about timelines, please see [here](../features/timeline)
+소셜 타임라인 ("Social TimeLine")의 약자. 타임라인에 대한 자세한 정보는 [다음 문서](../features/timeline)를 참고해 주세요.
 
 ## Ai
-Ai is Misskey's official mascot.
+Misskey의 공식 마스코트. 자세한 정보는 [다음 홈페이지 (일본어)](https://藍.moe)를 참고해 주세요.
 
 ## Active users
 Those users amongst all existing ones who are continually using their account.
